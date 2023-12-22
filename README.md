@@ -32,6 +32,18 @@ An equal number of negative examples were sampled to train the classifier that w
 
 ### Results
 
-Preliminary results show underfitting for low embedding size models and learning rate with a poor succes:
+Different embedding sizes were tested in order to overfit the model:
 
-![Train example](https://drive.google.com/uc?id=1hU0l1-lVGx4_BTdFlrCEYlLJiQjlaN6B)
+![Train example 1](https://drive.google.com/uc?id=1-T-V3zL6QyHdYUhmJeigRG-n6QCwbacU)
+
+![Train example 2](https://drive.google.com/uc?id=1pfi5Yen5N0G7Y3rBMaucbr6lMlhsMswr)
+
+![Train example 3](https://drive.google.com/uc?id=1NlCt6jgIuZLso69p_SseiHaKf8xUInOl)
+
+![Train example 4](https://drive.google.com/uc?id=16DuAqXUfbb04OmuT8w1q-BfnLIJUMXHg)
+
+One additional SAGE layer was added to the model, but the overfitting was not achieved.
+
+![Train example 4](https://drive.google.com/uc?id=1lTHCWIZySjb8cYVwOrfrjbSNEDHtT3b4)
+
+In all the train example we can see a proper decreasing loss for the train and validation sets, the higher AUC (0.9984655101101535) was achived by the last model.
